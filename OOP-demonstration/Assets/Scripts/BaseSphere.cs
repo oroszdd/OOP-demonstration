@@ -10,10 +10,9 @@ public class BaseSphere : MonoBehaviour
     protected Rigidbody m_rigidBody;
     protected Color m_color;
 
-    // Start is called before the first frame update
     protected virtual void Start()
     {
-        //ABSTRACTION
+        // ABSTRACTION
         SetAttributes();
         UseForces();
     }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-//INHERITANCE
+// INHERITANCE
 public class RedSphere : BaseSphere
 {
     // Start is called before the first frame update
@@ -15,7 +15,7 @@ public class RedSphere : BaseSphere
         base.Update();
     }
 
-    //POLIMORPHISM
+    // POLIMORPHISM
     protected override void SetColor()
     {
         gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
